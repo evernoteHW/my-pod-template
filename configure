@@ -8,4 +8,4 @@ end
 pod_name = ARGV.shift
 puts pod_name 
 puts ARGV
-# Pod::TemplateConfigurator.new(pod_name).run
+Pod::TemplateConfigurator.new(pod_name).run
